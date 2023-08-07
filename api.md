@@ -20,7 +20,7 @@ X-Client: 237cd6a8-5a0e-4ff0-b7e2-0bf34675d058
 ## Enpoints
 ### Get users
 
-`GET /api/users?page=5`
+`GET /users?page=5`
 
 ```json
 {
@@ -39,7 +39,7 @@ X-Client: 237cd6a8-5a0e-4ff0-b7e2-0bf34675d058
 ### Get companies
 
 
-`GET /api/companies?page=5`
+`GET /companies?page=5`
 
 ```json
 {
@@ -55,7 +55,7 @@ X-Client: 237cd6a8-5a0e-4ff0-b7e2-0bf34675d058
 ```
 
 ### Get company positions
-`GET /api/company/{company_id}`
+`GET /company/{company_id}`
 
 ```json
 {
